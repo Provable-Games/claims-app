@@ -1,0 +1,12 @@
+{
+  "name": "cairo-devcontainer-root",
+  "version": "1.0.0",
+  "scripts": {
+    "install": "cd ui && npm install --legacy-peer-deps",
+    "build": "cd ui && npm run build",
+    "start": "cd ui && npm start"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

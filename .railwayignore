@@ -1,0 +1,16 @@
+# Snapshots will be included for migration, then deleted
+# snapshots/
+snapshots copy/
+
+# Only ignore root-level collections files, not the ones in src/data
+./collections.json
+./collections copy.json
+
+# Exclude database files
+*.db
+*.sqlite
+
+# Exclude other sensitive data
+*.env
+.env.*
+*.backup

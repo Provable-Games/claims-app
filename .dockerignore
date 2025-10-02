@@ -1,0 +1,24 @@
+# Snapshots will be included temporarily for migration, then deleted
+# snapshots/
+snapshots copy/
+collections.json
+collections copy.json
+
+# Exclude other sensitive files
+*.db
+*.sqlite
+*.env
+.env.*
+
+# Exclude development files
+node_modules/
+.git/
+.github/
+.devcontainer/
+*.log
+*.backup
+
+# Exclude build artifacts that will be rebuilt
+dist/
+build/
+*.tsbuildinfo
